@@ -1,0 +1,15 @@
+- https://pages.github.com/ - If you want to set this up as a GitHub page. 
+
+- http://www.generatefavicon.com/ - Save to the folder img as: favicon.ico
+
+- img / logo.png - This is the brand logo. You're welome to rename it but the index.html presumes this name. 
+
+- img / cover.jog - Should be 400px wide and ideally 400px (or less) high. Note: Height is a concern because it effects the height of the first page. This too can be rename, but that's up to you.
+
+- index.html - Add the meta details, change the font, etc. Look for the TODOs
+
+- css / ezmemequote.css - Customize CSS as necessary to make the design brand-centric. Be sure to update the font-family property. 
+
+- js / setup.js - Make changes as necesary. Tag / shorten links to social media profiles for track / analytics purposes. There are additional instructions / details in this file. 
+
+- a-edit-this / my-quotes.js - This is the data file. Once all of the above is completed this is the only place where updates will take place. Please pardon the somewhat awkward folder name but the leading underscore makes it the first thing the user sees.

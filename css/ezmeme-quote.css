@@ -1,0 +1,221 @@
+/**
+ * Nuttin' too fancy here. Perhaps even bits of sloppiness, sorry. 
+ *
+ * The general presumption is this is template to be forked and tweaked / refactored as others see fit. 
+ * It exists simply to live up to its family name...ez :)
+ *
+ * That said, suggestions are welcomed.
+ */
+html {
+  overflow-y: scroll;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size:35px;
+  line-height:1.1
+}
+
+#page-wrap{
+  padding:0 5px 10px 10px
+}
+
+#page-wrap .fa{
+  color:#000;
+  font-size:25px;
+  margin:0 5px;
+}
+
+#form1{ 
+  display:inline-block;
+  vertical-align:top;
+  margin-top:-0.0em;
+}
+
+#wrap{
+  max-width:970px;
+  width:100%;
+  margin:20px auto
+}
+
+.wrap-1 .idea-wrap{
+  max-width:400px;
+  width:90%;
+  margin:20px auto
+}
+
+.idea img{
+  width:100%;
+}
+
+.box{
+  background-color: #7292b8;
+  color: #000;
+  min-height:300px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: 35px solid #000;
+  border-left: 35px solid #000;
+  border-radius: 2px;
+  padding: 35px 50px;
+  position:relative
+}
+
+.wrap-1 .box{
+  background-color: #F8F8F8;
+  color: #000;
+  min-height:300px;
+  border-top: 1px solid #7292b8;
+  border-bottom: 1px solid #7292b8;
+  border-right: 35px solid #7292b8;
+  border-left: 35px solid #7292b8;
+  border-radius: 2px;
+  padding: 35px 50px;
+  position:relative
+}
+
+/*
+.style-1 .box{}
+
+.style-2 .box{}
+
+.style-3 .box{}
+*/
+
+.title{
+ font-size:1.20em;
+ margin-bottom: 0.3em;
+ font-weight:700
+}
+
+.fa-quote-left{
+ margin-left: -10.4em;
+ display:none
+}
+
+.w3-quote{
+  font-size:2.0em;
+  vertical-align: bottom;
+  line-height: .25
+}
+
+.w3-quote-left{
+  margin-left: -0.38em;
+  margin-right:0.04em
+}
+
+.w3-quote-right{
+}
+
+.idea{
+  font-size:1.0em
+}
+
+.lower-wrap{
+  min-height: 70px
+}
+
+.who-wrap{
+  margin-top:.7em
+}
+
+.w3-dash{
+  font-size:25px;
+  margin-right:.35em;
+  line-height:0
+}
+
+.who{
+  color:#F8F8F8;
+  font-size:.85em;
+}
+
+.w3-dash-note{
+  opacity:0
+}
+.note-wrap{
+  padding-top:.3em;
+  color:#F8F8F8;
+  padding-right:50px
+}
+.note{
+  font-size:0.7em
+}
+
+.brand-wrap {
+  position: absolute;
+  right:15px;
+  bottom:5px
+}
+
+.brand-wrap img{
+  width:75px;
+}
+
+.caption{
+  text-align:right;
+  margin-top: 0.2em;
+  font-size:0.52em
+}
+
+.caption .fa{
+  font-size:1.2em;
+  margin-left:.7em;
+  line-height:.8;
+  vertical-align:bottom;
+}
+
+.caption a{
+  text-decoration:none;
+  color:#000
+}
+
+.styles{
+  position:absolute;
+  right:15px;
+  bottom:5px
+}
+
+@media (max-width: 768px) { 
+  body{
+    font-size:20px;
+	line-height:1.15
+  }
+  
+  .box{
+    padding: 20px 30px;
+	border-right-width: 10px;
+	border-left-width: 10px
+  }
+  
+  #page-wrap .fa{
+    font-size:125%;
+  }
+  
+  .w3-dash{
+    font-size:15px
+  }
+  
+  .note-wrap{
+    padding-right:18px
+  }
+  
+  .brand-wrap img{
+    width:50px
+  }
+  
+  .caption{
+    text-align:left;
+	font-size: 18px;
+  }
+  
+  .caption a{
+    padding: .4em;
+    display:block;
+  }
+  
+  .caption .fa{
+    margin-left: .2em
+  }
+}
+
