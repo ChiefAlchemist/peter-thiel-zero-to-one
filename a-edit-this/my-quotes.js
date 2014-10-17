@@ -20,11 +20,70 @@
 var ezMQ = {
   "ezobj":[
   
-	// copy & paste a row at a time. 
+    {
+	  'index'		: 7,
+	  'title'		: '',
+	  'idea_size'	: 105,
+	  'idea'		: "There's no reason why the future should happen only at Stanford, or in college, or in Silicon Valley.",
+	  'quotes'		: true,
+	  'select'		: 'The Future',
+	  'who'			: 'Peter Thiel',
+	  'note'		: 'Zero to One - Preface',
+	  'caption'		: setupCaption
+    },  
+  
+    {
+	  'index'		: 6,
+	  'title'		: '',
+	  'idea_size'	: 105,
+	  'idea'		: "Indeed, the single most powerful pattern I have noticed is that successful people find value in unexpected places, and they do this by thinking about business from first principles instead of formulas.",
+	  'quotes'		: true,
+	  'select'		: 'Successful people',
+	  'who'			: 'Peter Thiel',
+	  'note'		: 'Zero to One - Preface',
+	  'caption'		: setupCaption
+    },
+	
+    {
+	  'index'		: 5,
+	  'title'		: '',
+	  'idea_size'	: 105,
+	  'idea'		: "The paradox of teaching entrepreneurship is that such a formula necessarily cannot exist; because every innovation is new and unique, no authority can prescribe in concrete terms how to be innovative.",
+	  'quotes'		: true,
+	  'select'		: 'Teaching entrepreneurship',
+	  'who'			: 'Peter Thiel',
+	  'note'		: 'Zero to One - Preface',
+	  'caption'		: setupCaption
+    },
+  
+    {
+	  'index'		: 4,
+	  'title'		: '',
+	  'idea_size'	: 105,
+	  'idea'		: "Actually, if American business is going to succeed, we are going to need hundreds, or even thousands, of miracles. This would be depressing but for one crucial fact: humans are distinguished from other species by our ability to work miracles. We call these miracles technology.",
+	  'quotes'		: true,
+	  'select'		: 'Miracles',
+	  'who'			: 'Peter Thiel',
+	  'note'		: 'Zero to One - Preface',
+	  'caption'		: setupCaption
+    },
+  
+    {
+	  'index'		: 3,
+	  'title'		: '',
+	  'idea_size'	: 116,
+	  'idea'		: "Today's &ldquo;best practices&rdquo; lead to dead ends; the best paths are new and untried.",
+	  'quotes'		: true,
+	  'select'		: 'The best paths',
+	  'who'			: 'Peter Thiel',
+	  'note'		: 'Zero to One - Preface',
+	  'caption'		: setupCaption
+    },
+	
     {
 	  'index'		: 2,
 	  'title'		: '',
-	  'idea_size'	: 120,
+	  'idea_size'	: 105,
 	  'idea'		: "Of course, it's easier to copy a model than to make something new. Doing what we already know how to do takes the world from 1 to n, adding more of something familiar. But ever time we create something new, we go from 0 to 1. The art of creation is singular, as is the moment of creation, and the result is something fresh and strange.",
 	  'quotes'		: true,
 	  'select'		: '1 to n vs 0 to 1',

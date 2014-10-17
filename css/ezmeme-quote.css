@@ -57,7 +57,7 @@ body{
   border-right: 35px solid #000;
   border-left: 35px solid #000;
   border-radius: 2px;
-  padding: 35px 50px;
+  padding: 55px 60px;
   position:relative
 }
 
@@ -116,7 +116,7 @@ body{
 }
 
 .who-wrap{
-  margin-top:.7em
+  margin-top:1.5em
 }
 
 .w3-dash{
